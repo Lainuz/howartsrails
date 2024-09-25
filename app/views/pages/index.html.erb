@@ -1,0 +1,22 @@
+<h1 class="mb-5">Howarts Rails</h1>
+
+ <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Nombre Personaje</th>
+      <th scope="col">Locación</th>
+      <th scope="col">Casa</th>
+    </tr>
+  </thead>
+  <% @character.each do |c| %>
+  <tbody>  
+    <tr>      
+      <td><%= "#{c.name}" %></td>
+      <td><%= "#{c.location}" %></td>
+      <td><%= "#{c.house}" %></td>
+    </tr> 
+  </tbody>
+  <% end%>
+</table>
+
+
