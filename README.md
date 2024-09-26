@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version 3.3.4
 
-Things you may want to cover:
+* clonar repositorio https://github.com/Lainuz/howartsrails.git o descargar ZIP.
+* Entrar al directorio /howartsrails
+* Ejecutar comando "bundle install"
+* Ejecutar comando "rails assets:precompile"
+* Levantar aplicación con comando "rails s"
+* Revisar en navegador aplicación en localhost:3000
 
-* Ruby version
+* Repositorio github https://github.com/Lainuz/howartsrails
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Aplicación se encuentra en Render:
+   https://mysite-y0d0.onrender.com
